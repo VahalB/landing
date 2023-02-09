@@ -1,0 +1,25 @@
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.container h2 {
+    font-family: "Press Start 2P";
+    color: black;
+    text-align: center;
+    font-size: 34px;
+}
+
+@media(max-width: 900px) {
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+

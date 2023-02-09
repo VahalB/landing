@@ -1,0 +1,19 @@
+.footer {
+    background-color: #C84C0C;
+    display: flex;
+    justify-content: center;
+    padding:100px 0;
+    text-align: center;
+}
+
+.footer a {
+    font-size: 45px;
+    color:  #ffffff;
+    padding: 15px;
+}
+
+.footer p {
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    color: whitesmoke;
+}

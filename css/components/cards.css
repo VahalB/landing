@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+    size-adjust: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(221, 221, 221);
+    padding: 30px;
+    background-color: rgb(251, 246, 241);
+}
+
+.card img {
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 120px;
+    max-height: 120px;
+    flex-direction: column;
+}
+
+.card h3 {
+    font-family: "Press Start 2P";
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: center;
+}
